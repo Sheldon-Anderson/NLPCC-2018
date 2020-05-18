@@ -102,8 +102,16 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 ## 实验结果
 <table>
     <tr>
-        <th rowspan="2">真实情况</th>
-        <th colspan="2">预测结果</th>
+        <th rowspan="2">Model</th>
+        <th rowspan="2">accuracy</th>
+        <th colspan="2">patient level accuracy</th>
+        <th rowspan="2">se</th>
+        <th rowspan="2">sp</th>
+        <th rowspan="2">ppv</th>
+        <th rowspan="2">npv</th>
+        <th rowspan="2">dor</th>
+        <th rowspan="2">f1</th>
+        <th rowspan="2">kappa</th>
     </tr>
     <tr>
         <td>正例</td>
