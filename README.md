@@ -108,7 +108,7 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
     <th colspan="1" rowspan="2">Model</th> <th colspan="5">accuracy</th> <th colspan="5">patient level accuracy</th> <th colspan="5">se</th> <th colspan="5">sp</th> <th colspan="5">ppv</th> <th colspan="5">npv</th> <th colspan="5">dor</th> <th colspan="5">f1</th> <th colspan="5">kappa</th> 
 </tr>
 <tr class="twoHead">
-    <th></th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th><th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th>
+    <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th><th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th>
 </tr>
 </thead>
 <tbody>
