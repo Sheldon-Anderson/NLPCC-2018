@@ -100,18 +100,53 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 
 
 ## 实验结果
-<table>
-    <tr>
-        <th rowspan="2">
-            <tr>accuracy</tr>
-            <tr>40x, 100x, 200x, 400x</tr>
-        </th>
-        <th rowspan="2">
-            <tr>patient level accuracy</tr>
-            <tr>40x, 100x, 200x, 400x</tr>
-        </th>
-    </tr>
+<div class="table">
+<table border="1" cellspacing="0" cellpadding="10" width="100%">
+<thead>
+<tr class="firstHead">
+<th colspan="1" rowspan="2">序号</th>
+<th colspan="1" rowspan="2">村庄名称</th>
+<th colspan="6">本周采集房屋总量（户）</th>
+<th colspan="3">累计采集房屋总量（人）</th>
+<th colspan="4">本周隐患处理情况（处）</th>
+</tr>
+<tr class="twoHead">
+<th>合计</th>
+<th>对比上周变化</th>
+<th>出租房屋数量</th>
+<th>对比上周变化</th>
+<th>自住房屋数量</th>
+<th>对比上周变化</th>
+<th>总计</th>
+<th>出租房屋累计</th>
+<th>自主房屋累计</th>
+<th>新增隐患</th>
+<th>消除隐患</th>
+<th>现存隐患</th>
+<th>对比上周</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>∞</td>
+<td>30万</td>
+<td>20万</td>
+<td>60万</td>
+<td>100万</td>
+<td>看着办</td>
+<td>∞∞</td>
+<td>20万</td>
+<td>100万</td>
+<td>看着办</td>
+<td>∞∞</td>
+<td>20万</td>
+<td>20万</td>
+<td>20万</td>
+<td>20万</td>
+</tr>
+</tbody>
 </table>
+</div>
 
 放大系数40x时：
 
