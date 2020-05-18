@@ -102,87 +102,17 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 ## 实验结果
 <table>
     <tr>
-        <th rowspan="2">Model</th>
-        <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">accuracy</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th colspan="2">patient level accuracy</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">se</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">sp</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">ppv</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">npv</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">dor</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">f1</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
-        <th rowspan="2">kappa</th>
-         <tr>
-            <td>40x</td>
-            <td>100x</td>
-            <td>200x</td>
-            <td>400x</td>
-        </tr>
+        <th rowspan="2">
+            <tr>accuracy</tr>
+            <tr>40x, 100x, 200x, 400x</tr>
+        </th>
+        <th rowspan="2">
+            <tr>patient level accuracy</tr>
+            <tr>40x, 100x, 200x, 400x</tr>
+        </th>
     </tr>
-    <tr>
-        <td>正例</td>
-        <td>TP(真正例)</td>
-        <td>FN(假反例)</td>
-    </tr>
-    <tr>
-        <td>反例</td>
-        <td>FP(假正例)</td>
-        <td>TN(真反例)</td>
-    </tr>
+</table>
+
 放大系数40x时：
 
 |        Model        |   accuracy  | patient level accuracy |  se  |  sp  |  ppv  |  npv  |  dor  |  f1  |  kappa  |
