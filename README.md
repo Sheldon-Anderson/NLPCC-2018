@@ -160,6 +160,7 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 </thead>
 <tbody>
 <tr>
+<td></td>
 <td>∞</td>
 <td>30万</td>
 <td>20万</td>
@@ -200,8 +201,6 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 <td>20万</td>
 <td>60万</td>
 <td>100万</td>
-<td>看着办</td>
-
 <td>看着办</td>
 </tr>
 </tbody>
