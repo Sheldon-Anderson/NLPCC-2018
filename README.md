@@ -54,25 +54,25 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 
 ### 参数配置
 参数配置参考 [options.py](utils/options.py)  
-`1. server_ep: int类型，默认值为8，服务器端监控训练轮次（SE）`  
-`2. user_num: int类型，默认值为6，客户端用户数量（K）`  
-`3. client_ratio：str类型, 默认值为'536,500,500,500,500,500,500,500,500,500,500'，不同客户端用户的数据比例)`  
-`4. client_ep: int类型，默认值为5，客户端训练轮次（CE）`  
-`5. client_bs: int类型，默认值为32，客户端批大小（CB）`  
-`6. bs: int类型，默认值为32，模型测试批大小`  
-`7. lr: float类型，默认值为0.001，学习率`  
-`8. model: str类型，默认值为'densenet201'，模型名称（M）`  
-`9. mode: str类型，默认值为'fed'，模型训练和测试的模式（fed / centroid / direct）`  
-`10. dataset: str类型，默认值为'breakhis'，数据集名称（D）`  
-`11. data_folder: str类型，默认值为'/.../AllData'，数据集保存目录`  
-`12. train_prop: float类型，默认值为0.7，训练集占数据集的比例`  
-`13. image_size: int类型，默认值为224，图像矩阵的宽和高`  
-`14. num_classes: int类型，默认值为2，分类类别数量`  
-`15. num_channels: int类型，默认值为3，图像通道数量`  
-`16. gpu: int类型，默认值为0，GPU ID，-1代表CPU`  
-`17. verbose: action='store_true'，当读取参数中出现--verbose时触发`  
-`18. log_interval: int类型，默认值为50，训练间隔多少个批大小打印出日志信息`  
-`19. seed: int类型，默认值为1，随机种子`  
+* server_ep: int类型，默认值为8，服务器端监控训练轮次（SE）  
+* user_num: int类型，默认值为6，客户端用户数量（K）  
+* client_ratio：str类型, 默认值为'536,500,500,500,500,500,500,500,500,500,500'，不同客户端用户的数据比例)  
+* client_ep: int类型，默认值为5，客户端训练轮次（CE）  
+* client_bs: int类型，默认值为32，客户端批大小（CB）  
+* bs: int类型，默认值为32，模型测试批大小  
+* lr: float类型，默认值为0.001，学习率  
+* model: str类型，默认值为'densenet201'，模型名称（M）  
+* mode: str类型，默认值为'fed'，模型训练和测试的模式（fed / centroid / direct）  
+* dataset: str类型，默认值为'breakhis'，数据集名称（D）  
+* data_folder: str类型，默认值为'/.../AllData'，数据集保存目录  
+* train_prop: float类型，默认值为0.7，训练集占数据集的比例  
+* image_size: int类型，默认值为224，图像矩阵的宽和高  
+* num_classes: int类型，默认值为2，分类类别数量  
+* num_channels: int类型，默认值为3，图像通道数量  
+* gpu: int类型，默认值为0，GPU ID，-1代表CPU  
+* verbose: action='store_true'，当读取参数中出现--verbose时触发  
+* log_interval: int类型，默认值为50，训练间隔多少个批大小打印出日志信息  
+* seed: int类型，默认值为1，随机种子  
 
 ### 实验指标
 实验指标参考 [utils.py](utils/utils.py)  
