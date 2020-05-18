@@ -7,14 +7,14 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 与此同时，我们基于乳腺癌组织病理学数据集 [BreaKHis](http://open.baai.ac.cn/data-set-detail/221/20) 进行了图像分类的实验。  
 
 ## 环境配置
-`python==3.7.6`  
-`Keras==2.3.1`  
-`scikit-learn==0.22.1`  
-`tensorflow-gpu==2.2.0`  
-`timm==0.1.26`  
-`torch==1.5.0+cu92`  
-`torchsummary==1.5.1`  
-`torchvision==0.6.0+cu92`
+* python==3.7.6  
+* Keras==2.3.1  
+* scikit-learn==0.22.1  
+* tensorflow-gpu==2.2.0  
+* timm==0.1.26  
+* torch==1.5.0+cu92  
+* torchsummary==1.5.1  
+* torchvision==0.6.0+cu92
 
 ## 项目结构
 ```
