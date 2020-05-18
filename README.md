@@ -76,23 +76,23 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 
 ### 实验指标
 实验指标参考 [utils.py](utils/utils.py)  
-`1. accuracy: 准确率（accuracy，ACC），ACC = (TP + TN) / (TP + TN + FP + FN)`  
-`2. patient_level_accuracy: 基于病人的平均正确率`  
-`3. se: 敏感性（sensitivity, SE）= TP / (TP + FN)，即召回率，所有真实正例中预测出了多少真实正例`    
-`4. sp: 特异性（specificity，SP）= TN / (TN + FP)，所有真实负例中预测出了多少真实负例`  
-`5. ppv: 正确率（precision，P）= TP / (TP + FP)，即阳性预测值（positive predictive value，PPV）= TP / (TP + FP)，所有预测出来的正例中有多少是真的正例`  
-`6. npv: 假性预测值（negative predictive value，NPV）= TN / (TN + FN)，所有预测出来的负例中有多少是真的负例`  
-`7. dor: 诊断比值比（Diagnostic Odds Ratio，DOR）= (TP * TN) / (FP * FN)，即诊断优势比，是PLR+与NLR-的比值，即阳性似然比（TP / FP）与阴性似然比（FN / TN）的比值，反映诊断试验的结果与疾病的联系程度`  
-&nbsp;&nbsp;&nbsp;&nbsp;`7.1 取值大于1时，其值越大说明该诊断试验的判别效果较好`  
-&nbsp;&nbsp;&nbsp;&nbsp;`7.2 取值小于1时，正常人比患者更有可能被诊断试验判为阳性`  
-&nbsp;&nbsp;&nbsp;&nbsp;`7.3 取值等于1时，表示该诊断试验无法判别正常人与患者`  
-`8. f1: F1值（F1 Score）= 2 * ppv * se / (ppv + se)，精确率和召回率的调和均值`  
-`9. kappa: 一致性检验kappa系数 = (p0 - pe) / (1 - pe)，kappa计算结果为 [-1, 1]，但通常kappa是落在 [0, 1]，可分为五组来表示不同级别的一致性`  
-&nbsp;&nbsp;&nbsp;&nbsp;`9.1 [0.0, 0.20]：极低的一致性(slight)`  
-&nbsp;&nbsp;&nbsp;&nbsp;`9.2 [0.21, 0.40]：一般的一致性(fair)`  
-&nbsp;&nbsp;&nbsp;&nbsp;`9.3 [0.41, 0.60]：中等的一致性(moderate)`  
-&nbsp;&nbsp;&nbsp;&nbsp;`9.4 [0.61, 0.80]：高度的一致性(substantial)`  
-&nbsp;&nbsp;&nbsp;&nbsp;`9.5 [0.81, 1]：几乎完全一致(almost perfect)`  
+* accuracy: 准确率（accuracy，ACC），ACC = (TP + TN) / (TP + TN + FP + FN)`  
+* patient_level_accuracy: 基于病人的平均正确率`  
+* se: 敏感性（sensitivity, SE）= TP / (TP + FN)，即召回率，所有真实正例中预测出了多少真实正例`    
+* sp: 特异性（specificity，SP）= TN / (TN + FP)，所有真实负例中预测出了多少真实负例`  
+* ppv: 正确率（precision，P）= TP / (TP + FP)，即阳性预测值（positive predictive value，PPV）= TP / (TP + FP)，所有预测出来的正例中有多少是真的正例`  
+* npv: 假性预测值（negative predictive value，NPV）= TN / (TN + FN)，所有预测出来的负例中有多少是真的负例`  
+* dor: 诊断比值比（Diagnostic Odds Ratio，DOR）= (TP * TN) / (FP * FN)，即诊断优势比，是PLR+与NLR-的比值，即阳性似然比（TP / FP）与阴性似然比（FN / TN）的比值，反映诊断试验的结果与疾病的联系程度`  
+  * 取值大于1时，其值越大说明该诊断试验的判别效果较好`  
+  * 取值小于1时，正常人比患者更有可能被诊断试验判为阳性`  
+  * 取值等于1时，表示该诊断试验无法判别正常人与患者`  
+* f1: F1值（F1 Score）= 2 * ppv * se / (ppv + se)，精确率和召回率的调和均值`  
+* kappa: 一致性检验kappa系数 = (p0 - pe) / (1 - pe)，kappa计算结果为 [-1, 1]，但通常kappa是落在 [0, 1]，可分为五组来表示不同级别的一致性`  
+  * [0.0, 0.20]：极低的一致性(slight)`  
+  * [0.21, 0.40]：一般的一致性(fair)`  
+  * [0.41, 0.60]：中等的一致性(moderate)`  
+  * [0.61, 0.80]：高度的一致性(substantial)`  
+  * [0.81, 1]：几乎完全一致(almost perfect)`  
 
 ### 实验结果
 <table>
