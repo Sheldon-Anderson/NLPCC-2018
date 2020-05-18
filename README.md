@@ -104,104 +104,15 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 <table border="1" cellspacing="0" cellpadding="10" width="100%">
 <thead>
 <tr class="firstHead">
-<th colspan="1" rowspan="2">Model</th>
-<th colspan="4">accuracy</th>
-<th colspan="4">patient level accuracy</th>
-<th colspan="4">se</th>
-<th colspan="4">sp</th>
-<th colspan="4">ppv</th>
-<th colspan="4">npv</th>
-<th colspan="4">dor</th>
-<th colspan="4">f1</th>
-<th colspan="4">kappa</th>
+    <th colspan="1" rowspan="2">Model</th> <th colspan="4">accuracy</th> <th colspan="4">patient level accuracy</th> <th colspan="4">se</th> <th colspan="4">sp</th> <th colspan="4">ppv</th> <th colspan="4">npv</th> <th colspan="4">dor</th> <th colspan="4">f1</th> <th colspan="4">kappa</th> 
 </tr>
 <tr class="twoHead">
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
-<th>40x</th>
-<th>100x</th>
-<th>200x</th>
-<th>400x</th>
+    <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th><th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td></td>
-
-<td>∞</td>
-<td>30万</td>
-<td>20万</td>
-<td>60万</td>
-
-<td>100万</td>
-<td>看着办</td>
-<td>∞</td>
-<td>30万</td>
-
-<td>20万</td>
-<td>60万</td>
-<td>100万</td>
-<td>看着办</td>
-
-<td>∞</td>
-<td>30万</td>
-<td>20万</td>
-<td>60万</td>
-
-<td>100万</td>
-<td>看着办</td>
-<td>∞</td>
-<td>30万</td>
-
-<td>20万</td>
-<td>60万</td>
-<td>100万</td>
-<td>看着办</td>
-
-<td>∞</td>
-<td>30万</td>
-<td>20万</td>
-<td>60万</td>
-
-<td>100万</td>
-<td>看着办</td>
-<td>∞</td>
-<td>30万</td>
-
-<td>20万</td>
-<td>60万</td>
-<td>100万</td>
-<td>看着办</td>
+<td>densenet201</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>  <td>1%</td> <td>2%</td> <td>3%</td> <td>4%</td>
 </tr>
 </tbody>
 </table>
