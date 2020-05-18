@@ -104,26 +104,58 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 <table border="1" cellspacing="0" cellpadding="10" width="100%">
 <thead>
 <tr class="firstHead">
-<th colspan="1" rowspan="2">序号</th>
-<th colspan="1" rowspan="2">村庄名称</th>
-<th colspan="6">本周采集房屋总量（户）</th>
-<th colspan="3">累计采集房屋总量（人）</th>
-<th colspan="4">本周隐患处理情况（处）</th>
+<th colspan="1" rowspan="2">Model</th>
+<th colspan="4">accuracy</th>
+<th colspan="4">patient level accuracy</th>
+<th colspan="4">se</th>
+<th colspan="4">sp</th>
+<th colspan="4">ppv</th>
+<th colspan="4">npv</th>
+<th colspan="4">dor</th>
+<th colspan="4">f1</th>
+<th colspan="4">kappa</th>
 </tr>
 <tr class="twoHead">
-<th>合计</th>
-<th>对比上周变化</th>
-<th>出租房屋数量</th>
-<th>对比上周变化</th>
-<th>自住房屋数量</th>
-<th>对比上周变化</th>
-<th>总计</th>
-<th>出租房屋累计</th>
-<th>自主房屋累计</th>
-<th>新增隐患</th>
-<th>消除隐患</th>
-<th>现存隐患</th>
-<th>对比上周</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
+<th>40x</th>
+<th>100x</th>
+<th>200x</th>
+<th>400x</th>
 </tr>
 </thead>
 <tbody>
@@ -134,15 +166,43 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 <td>60万</td>
 <td>100万</td>
 <td>看着办</td>
-<td>∞∞</td>
+
+<td>∞</td>
+<td>30万</td>
 <td>20万</td>
+<td>60万</td>
 <td>100万</td>
 <td>看着办</td>
-<td>∞∞</td>
+
+<td>∞</td>
+<td>30万</td>
 <td>20万</td>
+<td>60万</td>
+<td>100万</td>
+<td>看着办</td>
+
+<td>∞</td>
+<td>30万</td>
 <td>20万</td>
+<td>60万</td>
+<td>100万</td>
+<td>看着办</td>
+
+<td>∞</td>
+<td>30万</td>
 <td>20万</td>
+<td>60万</td>
+<td>100万</td>
+<td>看着办</td>
+
+<td>∞</td>
+<td>30万</td>
 <td>20万</td>
+<td>60万</td>
+<td>100万</td>
+<td>看着办</td>
+
+<td>看着办</td>
 </tr>
 </tbody>
 </table>
