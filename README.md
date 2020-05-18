@@ -196,7 +196,206 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
 <td>0.6587</td> <td>0.7548</td> <td>0.7670</td> <td>0.6831</td> <td>0.7171</td> 
 <td>0.5305</td> <td>0.6563</td> <td>0.6698</td> <td>0.5612</td> <td>0.6052</td> 
 </tr>
+</tbody>
+</table>
+</div>
 
+独立训练（Direct Train）在测试集上的结果：
+<div class="table">
+<table border="1" cellspacing="0" cellpadding="10" width="100%">
+<thead>
+<tr class="firstHead">
+    <th colspan="1" rowspan="2">Model</th> <th colspan="5">accuracy</th> <th colspan="5">patient level accuracy</th> <th colspan="5">se</th> <th colspan="5">sp</th> <th colspan="5">ppv</th> <th colspan="5">npv</th> <th colspan="5">dor</th> <th colspan="5">f1</th> <th colspan="5">kappa</th> 
+</tr>
+<tr class="twoHead">
+    <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th><th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>densenet201</td>
+<td>0.8545</td> <td>0.8458</td> <td>0.8677</td> <td>0.8399</td> <td>0.8508</td> 
+<td>0.8589</td> <td>0.8527</td> <td>0.8525</td> <td>0.8458</td> <td>0.8474</td> 
+<td>0.7602</td> <td>0.7900</td> <td>0.7754</td> <td>0.6089</td> <td>0.8084</td> 
+<td>0.9013</td> <td>0.8718</td> <td>0.9098</td> <td>0.9496</td> <td>0.8709</td> 
+<td>0.7926</td> <td>0.7418</td> <td>0.7967</td> <td>0.8516</td> <td>0.7476</td> 
+<td>0.8834</td> <td>0.8990</td> <td>0.8988</td> <td>0.8364</td> <td>0.9057</td> 
+<td>28.9384</td> <td>25.5810</td> <td>34.8037</td> <td>29.3398</td> <td>28.4592</td> 
+<td>0.7760</td> <td>0.7651</td> <td>0.7859</td> <td>0.7101</td> <td>0.7768</td> 
+<td>0.6683</td> <td>0.6505</td> <td>0.6902</td> <td>0.6037</td> <td>0.6650</td> 
+</tr>
+<tr>
+<td>xception</td>
+<td>0.7525</td> <td>0.8387</td> <td>0.8154</td> <td>0.8228</td> <td>0.8251</td> 
+<td>0.7844</td> <td>0.8372</td> <td>0.7999</td> <td>0.8090</td> <td>0.8273</td> 
+<td>0.3333</td> <td>0.7062</td> <td>0.6277</td> <td>0.5756</td> <td>0.6680</td> 
+<td>0.9481</td> <td>0.8916</td> <td>0.8966</td> <td>0.9396</td> <td>0.8944</td> 
+<td>0.7500</td> <td>0.7225</td> <td>0.7239</td> <td>0.8182</td> <td>0.7360</td> 
+<td>0.7529</td> <td>0.8837</td> <td>0.8478</td> <td>0.8241</td> <td>0.8594</td> 
+<td>9.1429</td> <td>19.7817</td> <td>14.6095</td> <td>21.0822</td> <td>17.0364</td> 
+<td>0.4615</td> <td>0.7143</td> <td>0.6724</td> <td>0.6758</td> <td>0.7004</td> 
+<td>0.3304</td> <td>0.6019</td> <td>0.5448</td> <td>0.5588</td> <td>0.5773</td> 
+</tr>
+<tr>
+<td>resnet152</td>
+<td>0.8647</td> <td>0.6847</td> <td>0.9067</td> <td>0.6581</td> <td>0.8774</td> 
+<td>0.8593</td> <td>0.7037</td> <td>0.8948</td> <td>0.7037</td> <td>0.8777</td> 
+<td>0.8587</td> <td>0.0000</td> <td>0.8421</td> <td>0.0000</td> <td>0.7291</td> 
+<td>0.8673</td> <td>1.0000</td> <td>0.9359</td> <td>1.0000</td> <td>0.9463</td> 
+<td>0.7383</td> <td>0.0000</td> <td>0.8556</td> <td>0.0000</td> <td>0.8632</td> 
+<td>0.9337</td> <td>0.6847</td> <td>0.9292</td> <td>0.6581</td> <td>0.8826</td> 
+<td>39.7170</td> <td>0.0000</td> <td>77.8272</td> <td>0.0000</td> <td>47.4204</td> 
+<td>0.7940</td> <td>0.0000</td> <td>0.8488</td> <td>0.0000</td> <td>0.7905</td> 
+<td>0.6941</td> <td>0.0000</td> <td>0.7814</td> <td>0.0000</td> <td>0.7047</td> 
+</tr>
+<tr>
+<td>mobilenetv2_100</td>
+<td>0.8124</td> <td>0.8393</td> <td>0.8520</td> <td>0.8530</td> <td>0.8437</td> 
+<td>0.7874</td> <td>0.8163</td> <td>0.8729</td> <td>0.8583</td> <td>0.8319</td> 
+<td>0.5838</td> <td>0.6580</td> <td>0.6907</td> <td>0.6647</td> <td>0.6562</td> 
+<td>0.9057</td> <td>0.9233</td> <td>0.9275</td> <td>0.9377</td> <td>0.9274</td> 
+<td>0.7163</td> <td>0.7987</td> <td>0.8171</td> <td>0.8273</td> <td>0.8017</td> 
+<td>0.8421</td> <td>0.8537</td> <td>0.8649</td> <td>0.8616</td> <td>0.8579</td> 
+<td>13.4667</td> <td>23.1510</td> <td>28.5867</td> <td>29.8240</td> <td>24.3965</td> 
+<td>0.6433</td> <td>0.7216</td> <td>0.7486</td> <td>0.7372</td> <td>0.7217</td> 
+<td>0.5178</td> <td>0.6102</td> <td>0.6447</td> <td>0.6369</td> <td>0.6145</td> 
+</tr>
+<tr>
+<td>inception_resnet_v2</td>
+<td>0.7612</td> <td>0.8143</td> <td>0.7697</td> <td>0.8120</td> <td>0.7897</td> 
+<td>0.7798</td> <td>0.8213</td> <td>0.7861</td> <td>0.8102</td> <td>0.8049</td> 
+<td>0.3655</td> <td>0.5922</td> <td>0.4631</td> <td>0.6836</td> <td>0.5344</td> 
+<td>0.9532</td> <td>0.9024</td> <td>0.9235</td> <td>0.8761</td> <td>0.9091</td> 
+<td>0.7912</td> <td>0.7067</td> <td>0.7520</td> <td>0.7333</td> <td>0.7332</td> 
+<td>0.7559</td> <td>0.8479</td> <td>0.7743</td> <td>0.8474</td> <td>0.8068</td> 
+<td>11.7322</td> <td>13.4315</td> <td>10.4043</td> <td>15.2723</td> <td>11.4773</td> 
+<td>0.5000</td> <td>0.6444</td> <td>0.5732</td> <td>0.7076</td> <td>0.6182</td> 
+<td>0.3699</td> <td>0.5200</td> <td>0.4275</td> <td>0.5693</td> <td>0.4780</td> 
+</tr>
+<tr>
+<td>nasnetalarge</td>
+<td>0.7166</td> <td>0.7073</td> <td>0.7778</td> <td>0.7477</td> <td>0.7400</td> 
+<td>0.7196</td> <td>0.7257</td> <td>0.7981</td> <td>0.7555</td> <td>0.7410</td> 
+<td>0.4899</td> <td>0.5526</td> <td>0.4375</td> <td>0.4262</td> <td>0.6029</td> 
+<td>0.8245</td> <td>0.7738</td> <td>0.9479</td> <td>0.9076</td> <td>0.8050</td> 
+<td>0.5706</td> <td>0.5122</td> <td>0.8077</td> <td>0.6964</td> <td>0.5943</td> 
+<td>0.7725</td> <td>0.8009</td> <td>0.7712</td> <td>0.7608</td> <td>0.8105</td> 
+<td>4.5125</td> <td>4.2247</td> <td>14.1556</td> <td>7.2975</td> <td>6.2660</td> 
+<td>0.5272</td> <td>0.5316</td> <td>0.5676</td> <td>0.5288</td> <td>0.5986</td> 
+<td>0.3265</td> <td>0.3192</td> <td>0.4353</td> <td>0.3699</td> <td>0.4063</td> 
+</tr>
+<tr>
+<td>tf_efficientnet_b7</td>
+<td>0.7940</td> <td>0.8017</td> <td>0.8210</td> <td>0.7739</td> <td>0.8024</td> 
+<td>0.7894</td> <td>0.8052</td> <td>0.7998</td> <td>0.7972</td> <td>0.8009</td> 
+<td>0.5838</td> <td>0.6402</td> <td>0.6875</td> <td>0.5057</td> <td>0.6061</td> 
+<td>0.8884</td> <td>0.8768</td> <td>0.8808</td> <td>0.9104</td> <td>0.8938</td> 
+<td>0.7012</td> <td>0.7076</td> <td>0.7213</td> <td>0.7417</td> <td>0.7266</td> 
+<td>0.8263</td> <td>0.8396</td> <td>0.8627</td> <td>0.7836</td> <td>0.8297</td> 
+<td>11.1623</td> <td>12.6694</td> <td>16.2627</td> <td>10.3949</td> <td>12.9449</td> 
+<td>0.6371</td> <td>0.6722</td> <td>0.7040</td> <td>0.6014</td> <td>0.6609</td> 
+<td>0.4950</td> <td>0.5306</td> <td>0.5758</td> <td>0.4514</td> <td>0.5230</td> 
+</tr>
+</tbody>
+</table>
+</div>
+
+联邦训练（Federated Train）在测试集上的结果：
+<div class="table">
+<table border="1" cellspacing="0" cellpadding="10" width="100%">
+<thead>
+<tr class="firstHead">
+    <th colspan="1" rowspan="2">Model</th> <th colspan="5">accuracy</th> <th colspan="5">patient level accuracy</th> <th colspan="5">se</th> <th colspan="5">sp</th> <th colspan="5">ppv</th> <th colspan="5">npv</th> <th colspan="5">dor</th> <th colspan="5">f1</th> <th colspan="5">kappa</th> 
+</tr>
+<tr class="twoHead">
+    <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th><th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th> <th>40x</th> <th>100x</th> <th>200x</th> <th>400x</th> <th>all</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>densenet201</td>
+<td>0.9019</td> <td>0.8967</td> <td>0.8978</td> <td>0.8687</td> <td>0.8917</td> 
+<td>0.8998</td> <td>0.9048</td> <td>0.8936</td> <td>0.8722</td> <td>0.8961</td> 
+<td>0.7551</td> <td>0.7350</td> <td>0.7861</td> <td>0.7486</td> <td>0.7559</td> 
+<td>0.9747</td> <td>0.9720</td> <td>0.9488</td> <td>0.9257</td> <td>0.9559</td> 
+<td>0.9367</td> <td>0.9245</td> <td>0.8750</td> <td>0.8272</td> <td>0.8903</td> 
+<td>0.8891</td> <td>0.8872</td> <td>0.9068</td> <td>0.8858</td> <td>0.8922</td> 
+<td>118.7083</td> <td>96.3821</td> <td>68.0750</td> <td>37.1159</td> <td>67.1695</td> 
+<td>0.8362</td> <td>0.8189</td> <td>0.8282</td> <td>0.7859</td> <td>0.8176</td> 
+<td>0.7673</td> <td>0.7480</td> <td>0.7558</td> <td>0.6916</td> <td>0.7413</td> 
+</tr>
+<tr>
+<td>xception</td>
+<td>0.7946</td> <td>0.8742</td> <td>0.8475</td> <td>0.8377</td> <td>0.8390</td> 
+<td>0.8073</td> <td>0.8695</td> <td>0.8329</td> <td>0.8339</td> <td>0.8393</td> 
+<td>0.4815</td> <td>0.6384</td> <td>0.6330</td> <td>0.6570</td> <td>0.6006</td> 
+<td>0.9407</td> <td>0.9684</td> <td>0.9402</td> <td>0.9231</td> <td>0.9441</td> 
+<td>0.7913</td> <td>0.8898</td> <td>0.8207</td> <td>0.8014</td> <td>0.8258</td> 
+<td>0.7954</td> <td>0.8702</td> <td>0.8556</td> <td>0.8506</td> <td>0.8428</td> 
+<td>14.7411</td> <td>54.1038</td> <td>27.1299</td> <td>22.9831</td> <td>25.4115</td> 
+<td>0.5987</td> <td>0.7434</td> <td>0.7147</td> <td>0.7220</td> <td>0.6954</td> 
+<td>0.4714</td> <td>0.6630</td> <td>0.6130</td> <td>0.6090</td> <td>0.5897</td> 
+</tr>
+<tr>
+<td>resnet152</td>
+<td>0.9076</td> <td>0.9097</td> <td>0.9133</td> <td>0.8848</td> <td>0.9043</td> 
+<td>0.9013</td> <td>0.9174</td> <td>0.9004</td> <td>0.8859</td> <td>0.9067</td> 
+<td>0.7609</td> <td>0.7969</td> <td>0.7947</td> <td>0.7807</td> <td>0.7835</td> 
+<td>0.9716</td> <td>0.9616</td> <td>0.9667</td> <td>0.9389</td> <td>0.9605</td> 
+<td>0.9211</td> <td>0.9053</td> <td>0.9152</td> <td>0.8690</td> <td>0.9021</td> 
+<td>0.9031</td> <td>0.9114</td> <td>0.9126</td> <td>0.8918</td> <td>0.9052</td> 
+<td>108.7121</td> <td>98.3221</td> <td>112.5586</td> <td>54.7095</td> <td>88.0023</td> 
+<td>0.8333</td> <td>0.8476</td> <td>0.8507</td> <td>0.8225</td> <td>0.8387</td> 
+<td>0.7702</td> <td>0.7838</td> <td>0.7900</td> <td>0.7376</td> <td>0.7712</td> 
+</tr>
+<tr>
+<td>mobilenetv2_100</td>
+<td>0.8626</td> <td>0.9000</td> <td>0.8717</td> <td>0.8566</td> <td>0.8732</td> 
+<td>0.8525</td> <td>0.8925</td> <td>0.8919</td> <td>0.8583</td> <td>0.8765</td> 
+<td>0.7110</td> <td>0.8135</td> <td>0.7216</td> <td>0.6763</td> <td>0.7326</td> 
+<td>0.9245</td> <td>0.9400</td> <td>0.9420</td> <td>0.9377</td> <td>0.9360</td> 
+<td>0.7935</td> <td>0.8626</td> <td>0.8537</td> <td>0.8298</td> <td>0.8364</td> 
+<td>0.8869</td> <td>0.9159</td> <td>0.8784</td> <td>0.8657</td> <td>0.8868</td> 
+<td>30.1350</td> <td>68.3822</td> <td>42.1296</td> <td>31.4263</td> <td>40.0532</td> 
+<td>0.7500</td> <td>0.8373</td> <td>0.7821</td> <td>0.7452</td> <td>0.7811</td> 
+<td>0.6557</td> <td>0.7652</td> <td>0.6921</td> <td>0.6469</td> <td>0.6923</td> 
+</tr>
+<tr>
+<td>inception_resnet_v2</td>
+<td>0.7828</td> <td>0.8460</td> <td>0.8207</td> <td>0.8477</td> <td>0.8239</td> 
+<td>0.7946</td> <td>0.8522</td> <td>0.8592</td> <td>0.8452</td> <td>0.8366</td> 
+<td>0.5330</td> <td>0.6313</td> <td>0.5567</td> <td>0.6497</td> <td>0.5899</td> 
+<td>0.9039</td> <td>0.9313</td> <td>0.9531</td> <td>0.9465</td> <td>0.9332</td> 
+<td>0.7292</td> <td>0.7847</td> <td>0.8561</td> <td>0.8582</td> <td>0.8051</td> 
+<td>0.7996</td> <td>0.8642</td> <td>0.8109</td> <td>0.8442</td> <td>0.8296</td> 
+<td>10.7400</td> <td>23.1965</td> <td>25.5076</td> <td>32.8014</td> <td>20.1020</td> 
+<td>0.6158</td> <td>0.6997</td> <td>0.6746</td> <td>0.7395</td> <td>0.6809</td> 
+<td>0.4694</td> <td>0.5978</td> <td>0.5584</td> <td>0.6349</td> <td>0.5632</td> 
+</tr>
+<tr>
+<td>nasnetalarge</td>
+<td>0.7752</td> <td>0.7975</td> <td>0.8299</td> <td>0.8240</td> <td>0.8057</td> 
+<td>0.7705</td> <td>0.8158</td> <td>0.8290</td> <td>0.8298</td> <td>0.8118</td> 
+<td>0.5101</td> <td>0.5684</td> <td>0.6354</td> <td>0.5956</td> <td>0.5767</td> 
+<td>0.9014</td> <td>0.8959</td> <td>0.9271</td> <td>0.9375</td> <td>0.9143</td> 
+<td>0.7113</td> <td>0.7013</td> <td>0.8133</td> <td>0.8258</td> <td>0.7612</td> 
+<td>0.7945</td> <td>0.8285</td> <td>0.8357</td> <td>0.8234</td> <td>0.8201</td> 
+<td>9.5235</td> <td>11.3383</td> <td>22.1592</td> <td>22.0946</td> <td>14.5304</td> 
+<td>0.5941</td> <td>0.6279</td> <td>0.7135</td> <td>0.6921</td> <td>0.6562</td> 
+<td>0.4445</td> <td>0.4909</td> <td>0.5950</td> <td>0.5733</td> <td>0.5244</td> 
+</tr>
+<tr>
+<td>tf_efficientnet_b7</td>
+<td>0.8428</td> <td>0.8370</td> <td>0.8710</td> <td>0.7989</td> <td>0.8390</td> 
+<td>0.8359</td> <td>0.8428</td> <td>0.8612</td> <td>0.8145</td> <td>0.8372</td> 
+<td>0.6701</td> <td>0.6561</td> <td>0.7031</td> <td>0.5398</td> <td>0.6446</td> 
+<td>0.9203</td> <td>0.9212</td> <td>0.9463</td> <td>0.9306</td> <td>0.9296</td> 
+<td>0.7904</td> <td>0.7949</td> <td>0.8544</td> <td>0.7983</td> <td>0.8100</td> 
+<td>0.8614</td> <td>0.8519</td> <td>0.8766</td> <td>0.7990</td> <td>0.8488</td> 
+<td>23.4409</td> <td>22.2962</td> <td>41.7048</td> <td>15.7356</td> <td>23.9405</td> 
+<td>0.7253</td> <td>0.7188</td> <td>0.7714</td> <td>0.6441</td> <td>0.7179</td> 
+<td>0.6162</td> <td>0.6055</td> <td>0.6827</td> <td>0.5111</td> <td>0.6073</td> 
+</tr>
 </tbody>
 </table>
 </div>
