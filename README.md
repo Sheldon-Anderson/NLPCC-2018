@@ -95,9 +95,10 @@ Here are the codes for NLPCC 2018 paper: Abstractive Summarization Improved by W
   * [0.81, 1]：几乎完全一致(almost perfect)  
 
 ### 数据说明
+为了跟其它论文的实验结果有可比性，我们把原始数据集 [BreaKHis](http://open.baai.ac.cn/data-set-detail/221/20) 随机打乱后按照7 ：3进行了训练集（5536条）、测试集（2373条）切分；在独立训练和联邦训练时，将训练集分为11个集合，分配给11个对应的客户端，其中第一个客户端得到536条数据，其余每个客户端得到500条数据。
 
 ### 模型说明
-
+我们基于'densenet201'、'xception'、'resnet152'、'mobilenetv2_100'、'inception_resnet_v2'、'nasnetalarge'、'tf_efficientnet_b7'模型分别进行了实验。
 
 ## 实验结果
 集中训练（Centroid Train）在测试集上的结果：
